@@ -1,0 +1,30 @@
+# Python
+*.pyc
+*.pyo
+__pycache__
+
+# Virtual Environments (e.g. virtualenv, venv, pipenv, etc.)
+venv/
+env/
+pipenv/
+
+# IDE settings (e.g. PyCharm)
+.idea/
+
+# Streamlit specific
+.streamlit/
+*.log
+
+# Environment variables (sensitive or containing secrets)
+.env
+
+# Optional: Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled Python modules
+*.pyc
+
+# Ignore any other files or directories you want to exclude
+
+# Ignore macOS system files
+.DS_Store
